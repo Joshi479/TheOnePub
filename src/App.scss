@@ -1,0 +1,50 @@
+@import "~foundation-sites/scss/foundation";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "./Styles/social-buttons";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans|Monoton|Permanent+Marker|Pacifico|Roboto+Condensed:300,400');
+@include foundation-everything;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+body{
+background-color: rgba(238, 228, 228, 0.836);
+}
+
+header, footer > h1, h2, h4{
+  color:rgb(240, 218, 206);
+}
+
+.app-name{
+  font-family: 'Indie Flower', cursive;
+}
+
+.main{
+  padding:25px;
+  height: 1200px;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

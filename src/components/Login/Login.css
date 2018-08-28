@@ -1,0 +1,144 @@
+.login{
+  height: 600px;
+  background-color:#FFF;
+  padding: 100px;
+  padding-top: 300px;
+  background-image: url('../../Images/login-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.login > div > h2 {
+  font-family: 'Permanent Marker', cursive;
+  color:rgb(235, 186, 186);
+}
+
+.special-text{
+  color: rgb(60, 10, 94);
+}
+
+.social-icon{
+  padding-right: 5px;
+}
+
+.social-text{
+  display: inline-block;
+}
+
+.social > .fa {
+  font-size: 15px !important;
+  margin-right: 0 !important;
+}
+
+@media screen and (max-width:1166px) {
+  .login{ 
+    padding-top:280px;
+  }
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+}
+@media screen and (max-width:1024px) {
+  .login{ 
+    padding-top:250px;
+    height: 500px;
+  }
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+  .social-text{
+    font-size: small;
+  }  
+}
+@media screen and (max-width:980px) {
+  .login{ 
+    padding-top:150px;
+    height: 550px;
+  }
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+}
+@media screen and (max-width:767px) {
+  .login{ 
+    padding-top:100px;
+    height: 350px;
+  }
+  .login > div > h2{ font-size: medium}
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+  .social-icon{
+    padding-right: 0px;
+  }
+  .social-text{
+    display: none;
+  }
+  .button{
+    border-radius: 45px !important;
+    width: 50px;
+  }
+}
+@media screen and (max-width:599px) {
+  .login{ 
+    padding-top:100px;
+    height: 400px;
+  }
+  .login > div > h2{ font-size: medium}
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+  .social-icon{
+    padding-right: 0px;
+  }
+  .social-text{
+    display: none;
+  }
+  .button{
+    border-radius: 45px !important;
+    width: 50px;
+  }
+}
+@media screen and (max-width:479px) {
+  .login{ 
+    padding-top:100px;
+    height: 400px;
+  }
+  .login > div > h2{ font-size: small}
+  .special-text{
+    color: rgb(235, 186, 186);
+  }
+  .social-icon{
+    padding-right: 0px;
+  }
+  .social-text{
+    display: none;
+  }
+  .button{
+    border-radius: 45px !important;
+    width: 50px;
+  }
+}
+@media screen and (max-width:374px) {
+.login{ 
+  padding-top:75px;
+  height: 400px;
+}
+.login > div > h2{ 
+  font-size: small;
+}
+.special-text{
+  color: rgb(235, 186, 186);
+}
+.social-icon{
+  padding-right: 0px;
+}
+.social-text{
+  display: none;
+}
+.button{
+  border-radius: 45px !important;
+    width: 50px;
+}
+}

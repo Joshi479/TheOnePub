@@ -1,0 +1,17 @@
+footer{
+    padding:15px;
+    background-color: rgba(7, 1, 34, 0.75);
+  }
+
+  footer a {
+    display: block;
+  }
+
+  footer > div > div > hr{
+      margin: 0px;
+  }
+
+  footer > div > div {
+      margin-bottom: 10px;
+  }
+  
